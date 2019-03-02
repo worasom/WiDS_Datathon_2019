@@ -7,7 +7,7 @@ The training set images are stored in folder `train_images` and the test images 
  
 *	libraries fastai, pytorch libraries, opencv
 * split image into train, validation and test sets
-* Imbalance class: only 6% of the images belong to a second class (with oilpalm). Solve by create an augmented images from the training set
+* Imbalance class: only 6% of the images belong to a second class (with oilpalm). Solve by create an augmented images from the training set. Detail in this [notebook](https://github.com/worasom/WiDS_Datathon_2019/blob/master/generate_augmented_images.ipynb)
 *	Transfer learning using pretrained models  
 * Find different CNN model architectures: resnet34, resnext201, dn201
 * Submit different prediction to kaggle to verify correlation between the hold out set and the internal test/validation sets.
