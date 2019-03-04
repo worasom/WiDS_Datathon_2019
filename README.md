@@ -11,5 +11,5 @@ The training set images are stored in folder `train_images` and the test images 
 *	Transfer learning using pretrained models  
 * Explore different CNN architectures: resnet34, resnext201, dn201 in this [notebook](https://github.com/worasom/WiDS_Datathon_2019/blob/master/oil_palm_images-arch_survey.ipynb)
 * Submit different prediction to kaggle to verify correlation between the hold out set and the internal test/validation sets [notebook](https://github.com/worasom/WiDS_Datathon_2019/blob/master/oil_palm_images-arch_survey.ipynb).
-* Pretrained neural network using previous Kaggle competition in this[notebook](https://github.com/worasom/WiDS_Datathon_2019/blob/master/pretrain_planet.ipynb) and use the trained weight for this problem.
-*	Achieve 95% accuracy (about 151 on the leaderboard) 
+* Pretrained neural network using previous Kaggle competition in this[notebook](https://github.com/worasom/WiDS_Datathon_2019/blob/master/pretrain_planet.ipynb) and use the trained weight for this problem in this [notebook](https://github.com/worasom/WiDS_Datathon_2019/blob/master/oil_palm_images-trans.ipynb).
+*	Achieve 95% accuracy for the Kaggle hold out dataset (151 on the leaderboard) 
