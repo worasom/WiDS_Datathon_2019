@@ -21,7 +21,7 @@ I learn a lot from working on this project. First, creating augmented images is 
 
 Examples of images. 
 
-![]https://github.com/worasom/WiDS_Datathon_2019/blob/master/figgit/fig1.png
+![](https://github.com/worasom/WiDS_Datathon_2019/blob/master/figgit/fig1.png)
 
 Image size are 256 x 256 pixels.  
 
@@ -51,7 +51,7 @@ This is done in [notebook](https://github.com/worasom/WiDS_Datathon_2019/blob/ma
 
 Examples of images. 
 
-![]https://github.com/worasom/WiDS_Datathon_2019/blob/master/figgit/fig2.png
+![](https://github.com/worasom/WiDS_Datathon_2019/blob/master/figgit/fig2.png)
 
 
 # Try Different Architectures and Pick one
@@ -64,13 +64,14 @@ Furthermore, I need to verify if the internal test set is similar to the kaggle 
 
 The result is shown here.
 
-![]https://github.com/worasom/WiDS_Datathon_2019/blob/master/figgit/fig3.png
+![](https://github.com/worasom/WiDS_Datathon_2019/blob/master/figgit/fig3.png)
 
 Higher validation score correlated with higher Kaggle score. This means the validation set is pretty similar to the hold out set.
 
-![]https://github.com/worasom/WiDS_Datathon_2019/blob/master/figgit/fig4.png
+![](https://github.com/worasom/WiDS_Datathon_2019/blob/master/figgit/fig4.png)
 
 Test set is not that similar to the hold out. 
+![](https://github.com/worasom/WiDS_Datathon_2019/blob/master/figgit/fig5.png)
 
 Now I can rank the model by the validation score, pick the best model and optimized them. 
 
